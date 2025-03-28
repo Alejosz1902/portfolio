@@ -16,7 +16,7 @@ const Projects = () => {
                         <div className="flex flex-col md:mt-8 md:h-auto md:w-1/2 p-0 md:p-2">
                             <img src={bookmarkImg} alt="bookmark-projext" srcset="" className="object-contain rounded-lg"/>
                             <div className="flex flex-row space-x-4 w-full mt-4">
-                                <a href="https://github.com/Alejosz1902/bookmark-manager" className="project-button" target="_blank" rel="noreferrer"><SiGithub/><span>Repositorie</span></a>
+                                <a href="https://github.com/Alejosz1902/bookmark-manager" className="project-button" target="_blank" rel="noreferrer"><SiGithub/><span>Repository</span></a>
                                 <a href="https://bookmark-manager-rose.vercel.app/" className="project-button" target="_blank" rel="noreferrer"><CgWebsite/><span>Live view</span></a>
                             </div>
                         </div>
