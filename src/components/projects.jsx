@@ -22,25 +22,31 @@ const Projects = () => {
                         </div>
                         <div className="flex flex-col w-full md:w-1/2 items-start md:p-2">
                             <p className="text-white mt-4 md:mt-8">Eventicket is a full-stack web application designed to help businesses sell event tickets directly to customers in a seamless and secure way. Built with a robust tech stack including React, JavaScript, Python, Flask, Bootstrap, HTML, and CSS, this project demonstrates my ability to bridge front-end and back-end development effectively. Key features include user authentication, event creation and management, ticket purchasing, and payment integration via PayPal, as well as media handling with Cloudinary APIs. I implemented state management using Flux architecture, enabling smooth data flow and a responsive, intuitive user experience. This project showcases my proficiency in building scalable, real-world web applications with a strong focus on functionality, clean UI, and performance.</p>
-                            <div className="flex flex-row mt-4 mx-0 text-white md:mt-8">
-                                
-                                <div className="text-white hover:text-lightBlue pl-0 py-2 pr-2 hover:scale-110">
-                                    <SiJavascript className="text-4xl" />
+                            <div className="flex flex-col mt-4 mx-0 text-white md:mt-8 md:flex-row">
+                                <div className="flex flex-row mx-0 p-0 w-full">
+                                    <div className="text-white hover:text-lightBlue pl-0 py-2 pr-2 hover:scale-110">
+                                        <SiReact className="text-4xl" />
+                                    </div>
+                                    <div className="text-white hover:text-lightBlue p-2 hover:scale-110">
+                                        <SiJavascript className="text-4xl" />
+                                    </div>
+                                    <div className="text-white hover:text-lightBlue p-2 hover:scale-110">
+                                        <SiHtml5 className="text-4xl" />
+                                    </div>
+                                    <div className="text-white hover:text-lightBlue p-2 hover:scale-110">
+                                        <SiCss3 className="text-4xl" />
+                                    </div>
                                 </div>
-                                <div className="text-white hover:text-lightBlue p-2 hover:scale-110">
-                                    <SiHtml5 className="text-4xl" />
-                                </div>
-                                <div className="text-white hover:text-lightBlue p-2 hover:scale-110">
-                                    <SiCss3 className="text-4xl" />
-                                </div>
-                                <div className="text-white hover:text-lightBlue p-2 hover:scale-110">
+                                <div className="flex flex-row mx-0 p-0 w-full">
+                                    <div className="text-white hover:text-lightBlue pl-0 py-2 pr-2 md:p-2 hover:scale-110">
+                                        <SiPython className="text-4xl" />
+                                    </div>
+                                    <div className="text-white hover:text-lightBlue p-2 hover:scale-110">
+                                        <SiFlask className="text-4xl" />
+                                    </div>
+                                    <div className="text-white hover:text-lightBlue p-2 hover:scale-110">
                                     <SiBootstrap className="text-4xl" />
-                                </div>
-                                <div className="text-white hover:text-lightBlue p-2 hover:scale-110">
-                                    <SiPython className="text-4xl" />
-                                </div>
-                                <div className="text-white hover:text-lightBlue p-2 hover:scale-110">
-                                    <SiFlask className="text-4xl" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
