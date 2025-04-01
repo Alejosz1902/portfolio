@@ -2,6 +2,7 @@ import React from 'react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { TbFileCv } from 'react-icons/tb';
 import { MdEmail } from 'react-icons/md';
+import resume from '../assets/alejandros-resume.pdf';
 import Swal from 'sweetalert2';
 
 export default function Footer() {
@@ -37,7 +38,7 @@ export default function Footer() {
                 <a href="https://github.com/Alejosz1902" className="social-footer" target="_blank" rel="noreferrer">
                   <FaGithub />
                 </a>
-                <a href="https://flowcv.com/resume/sif3f1djnb" className="social-footer" target="_blank" rel="noreferrer">
+                <a href="../src/assets/alejandros-resume.pdf" className="social-footer" download={resume} target="_blank" rel="noreferrer">
                   <TbFileCv />
                 </a>
                 <button onClick={handleEmail} className="social-footer">
